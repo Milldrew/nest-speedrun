@@ -7,7 +7,28 @@ Each level exists on a separate branch.
 To complete the speed run complete the following tasks.
 
 Task 1. generate a nest.js project named ilovebeverages
-Task 2. create a module with crud operations for creating updating and deleting a collection of beverages.
+Task 2. create a CRUD resource called beverages
+Task 3. fill in the create beverage dto and the update beverage dto
+Task 4. Test your CRUD routes
+Task 5. add mock data to the beverages service
+Task 6. Validate Incoming objects
+
+<ul>
+
+<li>
+ add useGlobalPipes(new ValidationPipe()) to app
+</li>
+<li>
+ add modules class-validator class-transformer
+</li>
+<li>
+ use decorators like @IsString to validate the DTOs
+</li>
+<li>
+ explain what a partial type is and how the updateBeverageDto is realized by extending createBeverage
+</li>
+ 
+</ul>
 
 A beverage has a unique ID a name , a brand and flavors
 
