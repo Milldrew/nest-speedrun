@@ -5,12 +5,17 @@ This is the first speed run in a series of speed runs based around the NestJs Of
 Each level exists on a separate branch.
 
 To complete the speed run complete the following tasks.
-
+<br/>
 Task 1. generate a nest.js project named ilovebeverages
+<br/>
 Task 2. create a CRUD resource called beverages
+<br/>
 Task 3. fill in the create beverage dto and the update beverage dto
+<br/>
 Task 4. Test your CRUD routes
+<br/>
 Task 5. add mock data to the beverages service
+<br/>
 Task 6. Validate Incoming objects
 
 <ul>
@@ -30,6 +35,8 @@ Task 6. Validate Incoming objects
  
 </ul>
 
+<br/>
 A beverage has a unique ID a name , a brand and flavors
 
+<br/>
 Task 3. Make sure that yo have Error messages, DTOs that enable input validation, and handle malicious request data, as well as auto transform payloads to DTO instances
